@@ -33,6 +33,7 @@ body h1{
     font-size: 28px;
     font-weight: 800;
     margin-bottom: 12px;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .socialContainer{
@@ -41,10 +42,9 @@ body h1{
     justify-content: space-evenly;
     flex-direction: row;
     width: 95%;
-    max-width: 300px;
+    max-width: 200px;
     padding-top: 12px;
     padding-bottom: 4px;
-    border-top: 1px solid #FFFFFF;
 }
 
 .socialContainer a{
