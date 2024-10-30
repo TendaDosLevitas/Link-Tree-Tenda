@@ -77,6 +77,14 @@ body h1{
     height: auto;
 }
 
+.imgInfo{
+    width: 90%;
+    max-width: 380px;
+    height: auto;
+    user-select: none;
+    pointer-events: none;
+}
+
 .link{
     display: flex;
     align-items: center;
@@ -128,4 +136,51 @@ body h1{
     100% {
       filter: none;
     }
+}
+
+.schedule-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    color: white;
+    width: 90%;
+    max-width: 345px;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+  
+.schedule-container h2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+  
+.address {
+    text-align: center;
+    margin: 0px;
+    color: #c7c7c7;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+  
+.schedule {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+}
+  
+.day {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+  
+.schedule hr {
+    border: none;
+    border-top: 1px solid #c7c7c7;
 }
