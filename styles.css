@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     padding: 8px;
     padding-top: 40px;
-    background-color: rgb(78, 78, 78);
+    background-color: #1A2C3D; /* rgb(78, 78, 78); */
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
 
@@ -22,10 +22,11 @@ body {
 }
 
 body img{
-    width: 200px;
+    width: 320px;
     height: auto;
     user-select: none;
     pointer-events: none;
+    margin-bottom: 15px;
 }
 
 body h1{
